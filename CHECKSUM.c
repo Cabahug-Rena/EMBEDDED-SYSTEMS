@@ -1,7 +1,7 @@
 #include<stdio.h>
 #include<string.h>
  
- /* Cabahug,Rena Mae T. BSCE 4B */
+ /* Cabahug,Rena Mae T. BSCPE 4B */
  
 int main() {
     char a[20], b[20];
@@ -60,7 +60,7 @@ int main() {
      
 	 /* 
 	  * While doing the addition we have to add the binary strings from rightmost end i.e LSB to MSB.
-	  * When binary sum is done 1’s complement of it is taken by reversing 1’s to 0’s and vice versa.   
+	  * When binary sum is done 1â€™s complement of it is taken by reversing 1â€™s to 0â€™s and vice versa.   
 	  */ 
 	  
 	printf("\nSum:  %c%s", carry, sum);
@@ -76,7 +76,7 @@ int main() {
         else
             carry = '1';
      
-	 /* The resulting 1’s complement is the Checksum */  
+	 /* The resulting 1â€™s complement is the Checksum */  
 	printf("\nChecksum:  %c%s", carry, complement);
 	}
 	
